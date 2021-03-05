@@ -51,15 +51,12 @@
     box-shadow: 0 -20px 20px rgba(0,0,0,0.1);
 }
 
-.text{
-    z-index: 5;
-}
 
 .cat {
     .Transform(translateY(100%));
 	position: absolute;
 	width: 100%;
-	margin-left: 300px;
+	margin-left: 280px;
    	 margin-bottom: 200px;
     	z-index: 2;
     
