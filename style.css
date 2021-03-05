@@ -6,10 +6,9 @@
 
 body{
 	background-image: url('12.jpg');
-	background-size: 3000px, 3000px;
+	background-size: 6498px, 4320px;
 	background-repeat: no-repeat;
-	
-	
+	background-color:rgba(0,0,0,.3);	
 }
 
 .container{
