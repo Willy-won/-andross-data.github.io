@@ -7,12 +7,12 @@
 body{
 	background-image: url('12.jpg');
 	background-size: cover;
-	background-repeat: no-repeat;
+	
 	
 }
 
 .container{
-	margin-top: 35%;
+	margin-top: 38%;
     position: absolute;
     
     width: 100%;
