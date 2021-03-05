@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #53ff28;
+    overflow: hidden;
+}
+
+.heart{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #53ff28;
+    box-shadow: 20px 20px 40px rgba(0,0,0,0.2);
+    transform: rotate(45deg);
+}
+
+.heart::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#53ff28;
+    border-radius: 50%;
+    box-shadow: 0 -20px 20px rgba(0,0,0,0.1);
+}
+
+.heart::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: #53ff28;
+    border-radius: 50%;
+    box-shadow: 0 -20px 20px rgba(0,0,0,0.1);
+}
+
+.text{
+    z-index: 5;
+}
+
+.cat {
+    .Transform(translateY(100%));
+	position: absolute;
+	width: 100%;
+	margin-left: 50%;
+    margin-top: 26%;
+    z-index: 2;
+    
+}
+
+svg {
+	width: 50%;
+	height: 50%;
+}
+
+
+
+
+#eyes-right circle,
+#eyes-left circle {
+	fill: #251305;
+}
+
+
+
+@-webkit-keyframes move-whiskers-right {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	50% {
+		-webkit-transform: rotate(-3deg);
+	}
+	100% {
+		-webkit-transform: rotate(0deg);
+	}
+}
+
+#wh-right {
+	.TransformOrigin(0%, 100%);
+    
+	-webkit-animation: move-whiskers-right 5s infinite alternate;
+	-moz-animation: move-whiskers-right 5s infinite alternate;
+	-o-animation: move-whiskers-right 5s infinite alternate;
+	animation: move-whiskers-right 5s infinite alternate;
+}
+
+@-webkit-keyframes move-whiskers-right {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	50% {
+		-webkit-transform: rotate(-3deg);
+	}
+	100% {
+		-webkit-transform: rotate(0deg);
+	}
+}
+
+
+#wh-left {
+	.TransformOrigin(100%, 100%);
+
+	-webkit-animation: move-whiskers-left 5s infinite alternate;
+	-moz-animation: move-whiskers-left 5s infinite alternate;
+	-o-animation: move-whiskers-left 5s infinite alternate;
+	animation: move-whiskers-left 5s infinite alternate;
+}
+
+@-webkit-keyframes move-whiskers-left {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	50% {
+		-webkit-transform: rotate(3deg);
+	}
+	100% {
+		-webkit-transform: rotate(0deg);
+	}
+}
+
+
+
+
+@keyframes cat-animate {
+	0% {
+		.Transform(translateY(100%));
+	}
+
+	50% {
+		.Transform(translateY(75%));
+	}
+
+	80% {
+		.Transform(translateY(75%));
+	}
+
+	100% {
+		.Transform(translateY(50%));
+	}
+}
+
+
+
+
