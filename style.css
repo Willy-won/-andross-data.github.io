@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+	background-color: #deb887;
+}
+
 .container{
 
     position: absolute;
@@ -63,7 +67,7 @@
 
 svg {
 	width: 50%;
-	height: 90%;
+	height: 50%;
 }
 
 
