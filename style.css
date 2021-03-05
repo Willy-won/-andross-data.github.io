@@ -7,6 +7,7 @@
 body{
 	background-image: url('12.jpg');
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .container{
@@ -18,7 +19,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #53ff28;
+    background: #e91414;
     overflow: hidden;
 }
 
@@ -26,7 +27,7 @@ body{
     position: absolute;
     width: 30px;
     height: 30px;
-    background: #53ff28;
+    background: #e91414;
     box-shadow: 20px 20px 40px rgba(0,0,0,0.2);
     transform: rotate(45deg);
 }
@@ -38,7 +39,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background:#53ff28;
+    background:#e91414;
     border-radius: 50%;
     box-shadow: 0 -20px 20px rgba(0,0,0,0.1);
 }
@@ -50,7 +51,7 @@ body{
     left: -50%;
     width: 100%;
     height: 100%;
-    background: #53ff28;
+    background: #e91414;
     border-radius: 50%;
     box-shadow: 0 -20px 20px rgba(0,0,0,0.1);
 }
